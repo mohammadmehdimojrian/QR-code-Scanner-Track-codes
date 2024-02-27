@@ -18,8 +18,8 @@ class QRCodeApp:
         self.scan_log = {}  # Changed to a dictionary to track last scan timestamp
 
         # Sound file paths
-        self.sound_found = r"C:\Users\pooyaPc\Downloads\Music\mixkit-correct-answer-tone-2870.wav"
-        self.sound_not_found = r"C:\Users\pooyaPc\Downloads\Music\mixkit-game-show-wrong-answer-buzz-950.wav"
+        self.sound_found = r"mixkit-correct-answer-tone-2870.wav"
+        self.sound_not_found = r"mixkit-game-show-wrong-answer-buzz-950.wav"
 
         self.setup_ui()
 
